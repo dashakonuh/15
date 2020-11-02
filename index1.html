@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>Лаб раб №15</title>
+    </head>
+    <style>
+    @import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|EB+Garamond);
+.older {
+  list-style: none;
+  margin: 0 auto;
+  width: 660px;
+  counter-reset: li;
+}
+.older li {
+  border-bottom: dashed 1px #117619;
+  margin-top: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(168, 0, 219, 0.5) inset;
+  padding: 5px;
+}
+.older a {
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  line-height: 30px;
+  color:blueviolet;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+.older a:before {
+  display: inline-block;
+  content: counter(li);
+  counter-increment: li;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  border: solid 1px #dedede;
+  margin-right: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 24px;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
+}
+.older a:hover:before {
+  color:#D72F2C;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+    </style>
+    <body>
+<ul class="older">
+<li><a href="#">Это</a></li>
+  <li><a href="#">Пример</a></li>
+  <li><a href="#">Очень</a></li>
+  <li><a href="#">Красивого</a></li>
+  <li><a href="#">Списка</a></li>
+</ul>
+    </body>
+</html>

@@ -1,0 +1,142 @@
+body{
+    background-color: #dedede;
+}
+
+.container1{
+   width: 80%;
+    height: auto;
+    position: absolute;
+    left:10%;
+    top:5%;
+    background-color: #ffe7de;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.container2{
+  width: 80%;
+    top:65%;
+    height: auto;
+    position:absolute;
+    left:10%;
+    background-color:#ffe7de ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.photo1{
+    float:left;
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+.text1{
+    width: 50%;
+    float:left;
+    letter-spacing: 7px;
+    text-align: left;
+    font-size: 65px;
+    margin-top: 90px;
+    color:white;
+    font-family: Gulim;
+    text-shadow: 1px 1px 2px black;
+}
+
+.photo2{
+    float:right;
+}
+
+.text2{
+    width: 50%;
+    float:right;
+    letter-spacing: 5px;
+    font-size: 23px;
+    margin-top:2%;
+    font-family: Gulim;
+    text-align: right;
+    background-color: white;
+}
+.container3{
+  width: 80%;
+    height: auto;
+   position: absolute;
+    left:10%;
+    top:115%;
+    background-color:#ffe7de ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.text31{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: Gulim;
+    width: 100%;
+    text-align: center;
+    
+}
+.text32{
+    float:left;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Gulim;
+    width: 50%;
+    margin-top: 7px;
+}
+.text33{
+    float:left;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Gulim;
+    width: 50%;
+    margin-top: 7px;
+}
+
+.container4{
+width: 80%;
+    height: auto;
+    position: absolute;
+    left:10%;
+    top:155%;
+    background-color:#ffe7de ;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.container4:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.png{
+    width: 70px;
+    height: 70px;
+    margin-top: 7px;
+}
+.text4{
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family: Gulim;
+    margin-top: 7px;
+    text-align: center;
+}
+.container5{
+   width: 80%;
+    height: auto;
+    position: absolute;
+    left:10%;
+    top:175%;
+    background-color: #ffe7de;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    text-align: center;
+    font-size: 25px;
+}
